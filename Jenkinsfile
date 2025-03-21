@@ -27,11 +27,6 @@ pipeline {
             steps {
                 sh '''
                 echo "Pushing to GitHub"
-                git config --global user.email "your-email@example.com"
-                git config --global user.name "your-username"
-                git add PES2UG22CS588-1.cpp
-                git commit -m "Added PES2UG22CS588-1.cpp"
-                git push origin main
                 '''
             }
         }
